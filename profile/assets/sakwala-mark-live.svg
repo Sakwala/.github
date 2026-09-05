@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<style>
+  /* The living mark — the same motion as the sakwala.dev hero (site.css), carried inside the file.
+     Geometry is marks/sakwala-mark.svg, untouched. */
+  path {
+    stroke-dasharray: 400;
+    stroke-dashoffset: 0;
+    animation: skw-ringdraw 1.4s cubic-bezier(0.25, 0.1, 0.25, 1) both;
+  }
+  path:nth-of-type(-n + 4) { animation-delay: 0.1s; }
+  path:nth-of-type(n + 5):nth-of-type(-n + 8) { animation-delay: 0.22s; }
+  path:nth-of-type(n + 9):nth-of-type(-n + 12) { animation-delay: 0.34s; }
+  path:nth-of-type(n + 13):nth-of-type(-n + 16) { animation-delay: 0.46s; }
+  path:nth-of-type(n + 17):nth-of-type(-n + 20) { animation-delay: 0.58s; }
+  path:nth-of-type(n + 21):nth-of-type(-n + 24) { animation-delay: 0.7s; }
+  path:nth-of-type(n + 25) { animation-delay: 0.82s; }
+  circle:last-of-type {
+    transform-box: view-box;
+    transform-origin: 50% 50%;
+    animation: skw-orbit 90s linear infinite;
+  }
+  @keyframes skw-ringdraw { from { stroke-dashoffset: 400; } to { stroke-dashoffset: 0; } }
+  @keyframes skw-orbit { to { transform: rotate(360deg); } }
+  @media (prefers-reduced-motion: reduce) {
+    path { animation: none; stroke-dashoffset: 0; }
+    circle:last-of-type { animation: none; }
+  }
+</style>
+<rect width="100%" height="100%" fill="#0B1322"/><rect x="40" y="40" width="432" height="432" fill="none" stroke="#5E6C86" stroke-width="5" opacity="0.9"/>
+<line x1="256" y1="30" x2="256" y2="50" stroke="#5E6C86" stroke-width="5" opacity="0.9"/>
+<line x1="256" y1="462" x2="256" y2="482" stroke="#5E6C86" stroke-width="5" opacity="0.9"/>
+<line x1="30" y1="256" x2="50" y2="256" stroke="#5E6C86" stroke-width="5" opacity="0.9"/>
+<line x1="462" y1="256" x2="482" y2="256" stroke="#5E6C86" stroke-width="5" opacity="0.9"/>
+<path d="M 330.88 269 A 76 76 0 0 1 269 330.88" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="1.0"/>
+<path d="M 243 330.88 A 76 76 0 0 1 181.12 269" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="1.0"/>
+<path d="M 181.12 243 A 76 76 0 0 1 243 181.12" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="1.0"/>
+<path d="M 269 181.12 A 76 76 0 0 1 330.88 243" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="1.0"/>
+<path d="M 351.12 269 A 96 96 0 0 1 269 351.12" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="0.88"/>
+<path d="M 243 351.12 A 96 96 0 0 1 160.88 269" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="0.88"/>
+<path d="M 160.88 243 A 96 96 0 0 1 243 160.88" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="0.88"/>
+<path d="M 269 160.88 A 96 96 0 0 1 351.12 243" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="0.88"/>
+<path d="M 371.27 269 A 116 116 0 0 1 269 371.27" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="0.78"/>
+<path d="M 243 371.27 A 116 116 0 0 1 140.73 269" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="0.78"/>
+<path d="M 140.73 243 A 116 116 0 0 1 243 140.73" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="0.78"/>
+<path d="M 269 140.73 A 116 116 0 0 1 371.27 243" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="0.78"/>
+<path d="M 391.38 269 A 136 136 0 0 1 269 391.38" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="0.68"/>
+<path d="M 243 391.38 A 136 136 0 0 1 120.62 269" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="0.68"/>
+<path d="M 120.62 243 A 136 136 0 0 1 243 120.62" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="0.68"/>
+<path d="M 269 120.62 A 136 136 0 0 1 391.38 243" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="0.68"/>
+<path d="M 411.46 269 A 156 156 0 0 1 269 411.46" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="0.6"/>
+<path d="M 243 411.46 A 156 156 0 0 1 100.54 269" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="0.6"/>
+<path d="M 100.54 243 A 156 156 0 0 1 243 100.54" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="0.6"/>
+<path d="M 269 100.54 A 156 156 0 0 1 411.46 243" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="0.6"/>
+<path d="M 431.52 269 A 176 176 0 0 1 269 431.52" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="0.52"/>
+<path d="M 243 431.52 A 176 176 0 0 1 80.48 269" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="0.52"/>
+<path d="M 80.48 243 A 176 176 0 0 1 243 80.48" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="0.52"/>
+<path d="M 269 80.48 A 176 176 0 0 1 431.52 243" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="0.52"/>
+<path d="M 451.57 269 A 196 196 0 0 1 269 451.57" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="0.45"/>
+<path d="M 243 451.57 A 196 196 0 0 1 60.43 269" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="0.45"/>
+<path d="M 60.43 243 A 196 196 0 0 1 243 60.43" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="0.45"/>
+<path d="M 269 60.43 A 196 196 0 0 1 451.57 243" fill="none" stroke="#E7E1D3" stroke-width="5" stroke-linecap="butt" opacity="0.45"/>
+<circle cx="256" cy="256" r="23" fill="#D4A43C" opacity="0.10" class="vega-glow"/>
+<circle cx="256" cy="256" r="9" fill="#D4A43C"/>
+<circle cx="352.17" cy="159.83" r="6.5" fill="#D4A43C"/></svg>
